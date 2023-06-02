@@ -1,0 +1,418 @@
+/*
+Index
+-------
+
+01. Reset CSS
+02. Header Area
+03. Banner Area
+04. About Area
+05. Services Area
+06. Resumes Area
+07. Projects Area
+08. Contact Area
+09. Footer Area
+*/
+
+/* Reset CSS Start*/
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration:none;
+    list-style: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700;800&display=swap');
+body{
+    font-family: 'Lexend', sans-serif;
+    font-size: 16px;
+    line-height:24px;
+    background-color: #333;
+    color:#fff;
+}
+.container{
+    width: 1170px;
+    margin:0 auto;
+}
+/* Reset End*/
+/* Header Area CSS start*/
+.header-area {
+    padding: 25px 0;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.header ul {
+    list-style: none;
+    display: flex;
+}
+.header ul li a {
+    display: block;
+    margin: 0 10px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.header ul li a:hover {
+    color: #ffbd36;
+   transition: .5s;
+}   
+.btn {
+    display: inline-block;
+    background-color: #ffbd36;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    transition: .3s;
+    text-transform: uppercase;
+}
+  .btn:hover {
+    background-color: #333;
+    color: #fff;
+    border-color: #ffbd36;
+    
+}
+.menu-icon {
+    display: block;
+    cursor: pointer;
+}
+/* Header Area CSS End*/
+
+/* Banner Area CSS start*/
+.banner-area {
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+}
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-contant h5 {
+    text-transform: capitalize;
+    font-size: 23px;
+}
+.banner-contant h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 80px;
+}
+.banner-contant h4 {
+    text-transform: capitalize;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.banner-contant p {
+    max-width: 600px;
+    margin-bottom: 25px;
+}
+.banner-contant h2 span {
+    color: #ffbd36;
+}
+.banner-img img {
+    background-color: #ffbd36;
+    border-radius: 50%;
+    padding: 25px;
+    width: 100%;
+}
+  
+/* Banner Area CSS End*/
+
+/* About Area CSS start*/
+.about-area {
+  background-color: #2a2a2a;
+  padding: 110px 0;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-content {
+  flex-basis: 60%;
+}
+.about-content p {
+	text-transform: capitalize;
+}
+.about-content h4 {
+  font-size: 35px;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: #ffbd36;
+}
+.about-content p {
+  margin-bottom: 15px;
+}
+.about-info {
+  flex-basis: 30%;
+}
+.about-info ul {
+  list-style: none;
+}
+.about-info ul li {
+  border-bottom: 1px dashed #fff;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+}
+.about-info ul li:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* About Area CSS End*/
+
+/* Services Area CSS Start*/
+.services-area {
+  padding: 100px 0px 70px;
+}
+.service-title {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.service-title h4 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+.services {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.single-service {
+  background-color: #2a2a2a;
+  padding: 25px;
+  flex-basis: 32%;
+  text-align: center;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  transition: .3s;
+}
+.single-service i {
+  background-color: #ffbd36;
+  color: #333;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  transition: .3s;
+}
+.single-service:hover{
+  border-color:#ffbd36;
+}
+.single-service:hover i{
+  color:#202020;
+  background-color: #ddd;
+}
+.single-service h4 {
+  font-size: 20px;
+  text-transform: capitalize;
+  margin: 25px 0px;
+}
+/* Services Area CSS End*/
+
+/* Resumes Area CSS Start*/
+.resume-area {
+  background-color: #2a2a2a;
+  padding: 100px 0 70px;
+}
+.resume {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+.single-resume {
+  padding: 30px;
+  background-color: #202020;
+  border-radius: 10px;
+  flex-basis: 49%;
+  margin-bottom: 30px;
+  border:2px solid transparent;
+  transition: .3s;
+}
+.single-resume:hover{
+   border-color: #ffbd36;
+   transition: .3s;
+}
+.single-resume span {
+  display: block;
+  font-size: 20px;
+}
+.single-resume h4 {
+  font-size: 30px;
+  line-height: 60px;
+  color: #ffbd36;
+  text-transform: capitalize;
+}
+.single-resume h5 {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+/* Resumes Area CSS End*/
+
+/* Projects Area CSS Start*/
+.project-area {
+  padding: 100px 0 70px;
+}
+.projects {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+.single-projects {
+  flex-basis: 32%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 30px;
+}
+.project-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transition: .3s;
+  z-index: 2;
+  transform: scale(0);
+  opacity:0;
+  visibility: hidden;
+}
+.project-content h4 {
+  text-transform: capitalize;
+  font-size: 25px;
+}
+.project-content h4 span {
+  display: block;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.project-content:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  opacity: .9;
+  z-index: -1;
+
+}
+.single-projects:hover .project-content{
+opacity:1;
+visibility: visible;
+transform: scale(1);
+transition: .6s;
+}
+/* Projects Area CSS End*/
+
+/* Contact Area CSS Start*/
+.contact-area {
+  background-color: #2a2a2a;
+  padding: 100px 0 70px;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+.contact-form {
+  flex-basis: 60%;
+}
+.contact-form a{
+  text-transform: uppercase;
+  font-size: 16px;
+  color: black;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.contact-form input,.contact-form textarea {
+  width: 100%;
+  border: 2px solid #ddd;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.contact-form input[type="submit"] {
+  border: 0;
+  cursor: pointer;
+  width: auto;
+  padding: 15px 40px;
+}
+.contact-info {
+  flex-basis: 32%;
+}
+.single-contact {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+.single-contact i {
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	margin-right: 15px;
+	border: 2px solid #ffbd36;
+  transition: .3s;
+}
+.single-contact i:hover{
+ background-color: #ffbd36;
+ color:black;
+}
+.single-contact h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.single-contact h4 span {
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 5px;
+  
+}
+/* Contact Area CSS End*/
+
+/* Footer Area CSS Start*/
+.footer-area {
+  text-align: center;
+  padding: 60px 0;
+}
+.footer-area a {
+  border: 1px solid #ddd;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  line-height: 40px;
+  color: #ddd;
+  border-radius: 50%;
+  margin: 0 10px;
+  transition: .3s;
+  border-color: #ffbd36;
+}
+.footer-area a:hover{
+ background-color: #ffbd36;
+ color:#202020;
+}
+.footer-area p {
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+/* Footer Area CSS End*/

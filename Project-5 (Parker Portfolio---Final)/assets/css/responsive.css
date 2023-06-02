@@ -1,0 +1,158 @@
+/* Medium Layout: 1200px. 
+
+Checking Size: 1000px
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .container{
+        width: 970px;
+    }
+  }
+  
+  /* Tablet Layout: 1200px. 
+  Checking Size: 800px
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .container{
+        width: 750px;
+    }
+    .header a.btn {
+        font-size: 9px;
+        padding: 5px 9px;
+    }
+    .banner-contant {
+        flex-basis: 90%;
+    }
+    .about-info ul li {
+        font-size: 14px;
+    }
+    .about-info ul li {
+        font-size: 14px;
+      }
+      .header ul li a {
+       
+        font-size: 12px;
+    }
+      .about-content p {
+        font-size: 14px;
+    }
+    .banner-contant h2 {
+        font-size: 35px;
+    }
+    .banner-contant h4 {
+        font-size: 20px;
+    }
+    .banner-contant p {
+        font-size: 15px;
+    }
+    .btn {
+        font-size: 14px;
+    }
+    .banner-img {
+        flex-basis: 35%;
+    }
+    .single-resume h4 {
+        font-size: 23px;
+        line-height: 40px
+    }
+    .single-resume {
+        flex-basis: 49%;
+        }
+    .single-resume h5 {
+        font-size: 16px;
+    }
+
+  
+}
+/* Mobile Layout: 350px
+
+Checking Size: 400px
+*/
+@media only screen and (max-width: 767px){
+    .container{
+        width: 350px;
+    }
+    .logo {
+        font-size: 20px;
+    }
+    .menu-icon {
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .btn {
+        display: block;
+        padding: 5px;
+        font-size: 12px;
+    
+    }
+
+    .header ul{
+        position:absolute;
+        flex-direction: column;
+        top:70px;
+        background-color: #2a2a2a;
+        width: 100%;
+        left:0;
+        margin: 10px 0;
+        font-size: 12px;
+        padding: 2px 0;
+        }
+    .banner-area {
+        font-size: 12px;
+        line-height: 20px;
+        }
+    .banner-area h2 {
+        font-size: 35px;
+        margin-top: 60px;
+        }
+    .banner-area h4 {
+        font-size: 18px;
+        }
+    .banner{
+        flex-direction: column;
+        }
+    .banner-contant a.btn{
+            
+        display: unset;
+        font-size: 8px;
+         }
+    .banner-img {
+         margin-top: 40px;
+        }
+    .about-content,.about-info,.single-service,.single-resume,.single-projects,.contact-form{
+        flex-basis: 100%;
+         }
+    .about {
+         flex-direction: column;
+         justify-content: center;
+         align-content: center;
+         }
+    .about-content p {
+         margin-bottom: 30px;
+         font-size: 12px;
+       }
+    .about-content h4 {
+        font-size: 30px;
+    }
+    .about-info ul {
+       font-size: 12px;
+    }
+    .single-resume h4 {
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .single-resume h4 {
+        font-size: 16px;
+        line-height: 40px;
+        margin-bottom: 22px;
+    }
+    .contact-info {
+        flex-basis: 100%;
+        margin-top: 45px;
+    }
+    .contact-form input[type="submit"] {
+        padding: 10px 10px;
+    }
+}
